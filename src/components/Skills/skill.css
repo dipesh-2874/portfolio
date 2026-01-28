@@ -1,0 +1,53 @@
+.scard{
+    width: 320px;
+    height: 400px;
+    border-radius: 14px;
+    position: relative;
+    box-shadow: 2px 2px 10px rgba(69, 69, 69, 0.441);
+    isolation: isolate;
+    overflow: hidden;
+}
+
+.scard::before,
+.scard::after{
+    content: "";
+    position: absolute;
+}
+
+.scard::before{
+    height: 200%;
+    width: 200%;
+    background-image: conic-gradient(#03fac0 0deg, transparent 60deg, transparent 180deg, #03fac0 180deg, transparent 240deg);
+    inset: -50%;
+    z-index: -2;
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+.scard::after{
+    inset: 0.25rem;
+    background-color: #09090b;
+    z-index: -1;
+    transition: all 0.35s linear;
+}
+
+.item .info {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: all 0.3s ease-out;
+  pointer-events: none;
+  transition: all 0.3s ease-out;
+  transition-delay: 80ms;
+  box-shadow: 0 0 20px rgba(3, 250, 192, 0.15);
+}
+
+.item p:hover ~ .info {
+  opacity: 1;
+  transform: translateX(0);
+  z-index: 30;
+}

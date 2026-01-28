@@ -1,0 +1,26 @@
+.social a:hover box-icon {
+    transform: translateX(-1px) translateY(-2px);
+    filter: drop-shadow(1px 1px 4px #00ffc3);
+}
+
+.view:hover{
+    transform: translateX(-1px) translateY(-2px);
+    filter: drop-shadow(1px 1px 4px #00ffc3);
+}
+
+#box {
+  height: 24px;
+  animation: blinking 1s steps(50) infinite;
+}
+
+@keyframes blinking {
+  25%{
+      height: 14px;
+  }
+  50% {
+      height: 0px;
+  }
+  75%{
+      height: 14px;
+  }
+}

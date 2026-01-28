@@ -1,0 +1,45 @@
+.exp1img:hover,
+.exp2img:hover{
+    transform: translateX(-1px) translateY(-2px);
+    filter: drop-shadow(3px 3px 3px rgba(182, 182, 182, 0.704));
+}
+
+.laptop{
+    height: 25px;
+    max-width: 32rem;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: monospace;
+}
+
+.blink-box{
+    height: 18px;
+    width: 15px;
+    border-bottom: 2px solid #03fac0;
+    animation: blinker 1s step-end infinite;
+}
+
+.typing-wrap{
+    width: 32rem;
+}
+
+.typing-wrap:hover .laptop{
+    animation: typingg 3s steps(30) forwards;
+}
+
+@keyframes typingg {
+    from{
+        max-width: 0;
+    }
+    to{
+        max-width: 32rem;
+    }
+}
+
+@keyframes blinker {
+    50%{
+        border-color: transparent;
+    }
+    
+}
