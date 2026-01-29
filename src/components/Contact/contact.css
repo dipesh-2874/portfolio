@@ -2,3 +2,75 @@
     transform: translateX(-1px) translateY(-2px);
     filter: drop-shadow(2px 2px 3px #03fac0);
 }
+
+.cc{
+    box-shadow: 1px 1px 15px rgba(111,111,111, 0.704);
+    animation: float 7s steps(100) infinite;
+}
+
+@keyframes float {
+    0%,100%{
+        transform: translateX(0) translateY(0);
+    }
+    10%,90%{
+        transform: translateX(1px) translateY(1px);
+    }
+    18%,83%{
+        transform: translateX(3px) translateY(4px);
+    }
+    25%,75%{
+        transform: translateX(5px) translateY(5px);
+    }
+    33%,68%{
+        transform: translateX(7px) translateY(4px);
+    }
+    40%,60%{
+        transform: translateX(9px) translateY(1px);
+    }
+    50%{
+        transform: translateX(10px) translateY(0);
+    }
+}
+
+.plane1{
+    animation: fly1 7s infinite linear;
+}
+.plane2{
+    animation: fly2 10s infinite linear;
+}
+.plane3{
+    animation: fly3 13s infinite linear;
+}
+
+@keyframes fly1 {
+    from{
+        transform: translateX(-70px) translateY(70px);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(1000px) translateY(-1000px);
+        opacity: 0;
+    }
+}
+
+@keyframes fly2 {
+    from{
+        transform: translateX(-500px) translateY(500px);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(1000px) translateY(-1000px);
+        opacity: 0;
+    }
+}
+
+@keyframes fly3 {
+    from{
+        transform: translateX(50px) translateY(50px);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(-1200px) translateY(-1200px);
+        opacity: 0;
+    }
+}
