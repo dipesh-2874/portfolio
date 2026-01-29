@@ -1,16 +1,31 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This project showcases my skills, projects, and experience.  
+It’s designed to highlight my work in an elegant, responsive, and interactive way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🎨 **Responsive Design** – Works seamlessly across devices (desktop, tablet, mobile)
+- 💼 **Projects Section** – Displays featured projects with links and descriptions
+- 🧠 **About Section** – A summary of my background and expertise
+- ✉️ **Contact Form** – Allows visitors to reach out easily
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | HTML5, React JS (jsx) |
+| **Styling** | CSS3, Tailwind CSS |
+| **Deployment** | [GitHub Pages / Render] |
+| **Other Tools** | [EmailJS] |
+
+---
+
+## 📦 Live Link
+
+[Visit My Portfolio](https://portfolio-dipesh.onrender.com)
