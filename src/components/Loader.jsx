@@ -1,20 +1,21 @@
 import { useEffect, useState } from "react";
 import "./loader.css";
 
-const Loader = () => {
+const Loader = ({load}) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const handleLoad = () => setLoading(false);
-    window.addEventListener("load", handleLoad);
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1500); // adjust timing
 
-    return () => window.removeEventListener("load", handleLoad);
+    return () => clearTimeout(timer);
   }, []);
 
   if (!loading) return null;
 
   return (
-    <div id="loader">
+    <div id="loader" className={load ? "show" : "hide"}>
       <div className="box"></div>
     </div>
   );

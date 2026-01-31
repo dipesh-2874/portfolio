@@ -12,37 +12,28 @@
 }
 
 @keyframes scrolling {
-    0%{
-        transform: translateY(0px);
+    0%,10% { transform: translateY(0); }
+    20%,30% { transform: translateY(-32px); }
+    40%,50% { transform: translateY(-64px); }
+    60%,70% { transform: translateY(-96px); }
+    80%,90% { transform: translateY(-128px); }
+    100% { transform: translateY(0); }
+}
+
+@media (max-width: 767px) {
+    .orl{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        animation: mobscrolling 10s ease-in-out infinite;
     }
-    10%{
-        transform: translateY(0px);
-    }
-    20%{
-        transform: translateY(-32px);
-    }
-    30%{
-        transform: translateY(-32px);
-    }
-    40%{
-        transform: translateY(-64px);
-    }
-    50%{
-        transform: translateY(-64px);
-    }
-    60%{
-        transform: translateY(-96px);
-    }
-    70%{
-        transform: translateY(-96px);
-    }
-    80%{
-        transform: translateY(-128px);
-    }
-    90%{
-        transform: translateY(-128px);
-    }
-    100%{
-        transform: translateY(0px);
+
+    @keyframes mobscrolling {
+        0%,10% { transform: translateY(0); }
+        20%,30% { transform: translateY(-30px); }
+        40%,50% { transform: translateY(-64px); }
+        60%,70% { transform: translateY(-96px); }
+        80%,90% { transform: translateY(-128px); }
+        100% { transform: translateY(0); }
     }
 }
