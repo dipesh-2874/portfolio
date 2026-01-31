@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
       {/* NAVBAR */}
-      <header className="fixed top-0 left-0 w-full h-20 bg-zinc-950 z-50">
+      <header className="fixed top-0 left-0 w-full h-20 bg-zinc-950 z-150">
         <div className="h-full flex items-center justify-between px-6 md:px-16 text-white">
           
           <div className="logo flex gap-4 items-center">

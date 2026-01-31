@@ -9,6 +9,14 @@
   user-select: none;
 }
 
+body, html{
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
 section {
   scroll-margin-top: 80px;
 }

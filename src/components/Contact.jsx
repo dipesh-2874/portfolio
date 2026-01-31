@@ -25,30 +25,30 @@ const Contact = ({ id }) => {
   }
 
   return (
-    <section id={id} className='min-h-screen w-full px-40 py-5 flex flex-col justify-center items-center scroll-mt-20'>
-      <div className="cc relative flex flex-row w-full bg-zinc-950 rounded-xl p-15 z-30">
+    <section id={id} className='min-h-screen w-full px-6 md:px-12 lg:px-40 py-5 flex flex-col justify-center items-center scroll-mt-20'>
+      <div className="cc relative w-full max-w-6xl flex flex-col md:flex-row gap-10 bg-zinc-950 rounded-xl p-6 md:p-10 lg:p-15 z-30">
         <div className="info text-left w-full flex flex-col gap-4">
-          <p className="pro w-fit text-4xl text-white text-center font-extrabold">
+          <p className="pro w-fit text-3xl md:text-4xl text-white font-extrabold text-center md:text-left">
             Let's Get in Touch
           </p>
           <p className='text-lg text-emerald-300 font-bold tracking-tighter'>Open to ideas, opportunities, and meaningful conversations.<div className="blink-box"></div></p>
-          <div className="navlinks flex flex-col justify-center h-50 gap-7">
+          <div className="navlinks flex flex-col gap-5">
             <a target="_blank" href="https://www.google.com/maps/@26.5433033,88.7012639,3522m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDEyNi4wIKXMDSoASAFQAw%3D%3D" className="flex flex-row items-center">
               <box-icon name='current-location' color="#ffffff" className="h-7 w-7"></box-icon>
-              <p className='text-white hover:text-emerald-300 text-sm tracking-tighter w-110 px-4'>Jalpaiguri Government Engineering College, Jalpaiguri, West Bengal, Pin:- 735102</p>
+              <p className='text-white hover:text-emerald-300 text-sm tracking-tighter max-w-md px-4'>Jalpaiguri Government Engineering College, Jalpaiguri, West Bengal, Pin:- 735102</p>
             </a>
             <a className="flex flex-row items-center">
               <box-icon name='phone-call' color="#ffffff" className="h-7 w-7"></box-icon>
-              <p className='text-white hover:text-emerald-300 text-sm tracking-tighter w-110 px-4'>+91 97337 17805</p>
+              <p className='text-white hover:text-emerald-300 text-sm tracking-tighter max-w-md px-4'>+91 97337 17805</p>
             </a>
             <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=01dipeshdas@gmail.com" className="flex flex-row items-center">
               <box-icon name='envelope' color="#ffffff" className="h-7 w-7"></box-icon>
-              <p className='text-white hover:text-emerald-300 text-sm w-110 px-4'>01dipeshdas@gmail.com</p>
+              <p className='text-white hover:text-emerald-300 text-sm max-w-md px-4'>01dipeshdas@gmail.com</p>
             </a>
           </div>
         </div>
         <div className="contact w-full flex flex-col">
-          <form ref={form} onSubmit={sendEmail} className='text-white w-full flex flex-col gap-4'>
+          <form ref={form} onSubmit={sendEmail} className='text-white w-full flex flex-col gap-4 max-w-md mx-auto'>
             <input name='name' className='border-2 outline-0 border-emerald-300 h-10 px-4 py-2 rounded-xl' type="text" placeholder='Name' required/>
             <input name='email' className='border-2 outline-0 border-emerald-300 h-10 px-4 py-2 rounded-xl' type="email" placeholder='Email' required/>
             <input name='subject' className='border-2 outline-0 border-emerald-300 h-10 px-4 py-2 rounded-xl' type="text" placeholder='Subject' required/>

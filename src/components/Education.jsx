@@ -13,21 +13,21 @@ const Education = ({id}) => {
             <div className="roller text-white -translate-y-20">
                 <div className="grouping">
                     <div className="d">
-                        <div className="content1 flex flex-col items-center justify-center gap-2 px-5 text-center">
+                        <div className="content1 h-11/12 flex flex-col items-center justify-center gap-2 px-5 text-center">
                             <img src="images/education.png" className="h-14 w-14" alt="" />
                             <h3 className='text-emerald-300 md:text-lg text-md font-bold'>B.Tech in Computer Science and Engineering (2024-2028)</h3>
                             <p className='text-sm md:text-md'>Currently pursuing <b>Bachelor of Technology</b> in CSE from <b>Jalpaiguri Government Engineering College</b>, with <b>8.64 YGPA</b> till now.</p>
                         </div>
                     </div>
                     <div className="d">
-                        <div className="content2 flex flex-col items-center justify-center gap-2 px-5 text-center">
+                        <div className="content2 h-11/12 flex flex-col items-center justify-center gap-2 px-5 text-center">
                             <img src="images/education.png" className="h-14 w-14" alt="" />
                             <h3 className='text-emerald-300 md:text-lg text-md font-bold'>Higher Secondary Examination in 2023</h3>
                             <p className='text-sm md:text-md'>Passed the <b>Higher Secondary examination</b> from <b>Ramakrishna Mission Vidyabhavan(H.S.)</b> affiliated to <b>West Bengal Council of Higher Secondary Education</b> with <b>91.8% marks</b></p>
                         </div>
                     </div>
                     <div className="d">
-                        <div className="content3 flex flex-col items-center justify-center gap-2 px-5 text-center">
+                        <div className="content3 h-11/12 flex flex-col items-center justify-center gap-2 px-5 text-center">
                             <img src="images/education.png" className="h-14 w-14" alt="" />
                             <h3 className='text-emerald-300 md:text-lg text-md font-bold'>Secondary Examination in 2021</h3>
                             <p className='text-sm md:text-md'>Passed the <b>Secondary examination</b> from <b>Ramakrishna Mission Vidyabhavan(H.S.)</b> affiliated to <b>West Bengal Board of Secondary Education</b> with <b>90.14% marks</b></p>
@@ -36,24 +36,24 @@ const Education = ({id}) => {
                 </div>
                 <div aria-hidden className="grouping">
                     <div className="d">
-                        <div className="content flex flex-col items-center justify-center gap-2 px-5 text-center">
+                        <div className="content h-11/12 flex flex-col items-center justify-center gap-2 px-5 text-center">
                             <img src="images/education.png" className="h-14 w-14" alt="" />
-                            <h3 className='text-emerald-300 text-lg font-bold'>B.Tech in Computer Science and Engineering (2024-2028)</h3>
-                            <p>Currently pursuing <b>Bachelor of Technology</b> in CSE from <b>Jalpaiguri Government Engineering College</b>, with <b>8.64 YGPA</b> till now.</p>
+                            <h3 className='text-emerald-300 md:text-lg text-md font-bold'>B.Tech in Computer Science and Engineering (2024-2028)</h3>
+                            <p className='text-sm md:text-md'>Currently pursuing <b>Bachelor of Technology</b> in CSE from <b>Jalpaiguri Government Engineering College</b>, with <b>8.64 YGPA</b> till now.</p>
                         </div>
                     </div>
                     <div className="d">
-                        <div className="content flex flex-col items-center justify-center gap-2 px-5 text-center">
+                        <div className="content h-11/12 flex flex-col items-center justify-center gap-2 px-5 text-center">
                             <img src="images/education.png" className="h-14 w-14" alt="" />
-                            <h3 className='text-emerald-300 text-lg font-bold'>Higher Secondary Examination in 2023</h3>
-                            <p>Passed the <b>Higher Secondary examination</b> from <b>Ramakrishna Mission Vidyabhavan(H.S.)</b> affiliated to <b>West Bengal Council of Higher Secondary Education</b> with <b>91.8% marks</b></p>
+                            <h3 className='text-emerald-300 md:text-lg text-md font-bold'>Higher Secondary Examination in 2023</h3>
+                            <p className='text-sm md:text-md'>Passed the <b>Higher Secondary examination</b> from <b>Ramakrishna Mission Vidyabhavan(H.S.)</b> affiliated to <b>West Bengal Council of Higher Secondary Education</b> with <b>91.8% marks</b></p>
                         </div>
                     </div>
                     <div className="d">
-                        <div className="content flex flex-col items-center justify-center gap-2 px-5 text-center">
+                        <div className="content h-11/12 flex flex-col items-center justify-center gap-2 px-5 text-center">
                             <img src="images/education.png" className="h-14 w-14" alt="" />
-                            <h3 className='text-emerald-300 text-lg font-bold'>Secondary Examination in 2021</h3>
-                            <p>Passed the <b>Secondary examination</b> from <b>Ramakrishna Mission Vidyabhavan(H.S.)</b> affiliated to <b>West Bengal Board of Secondary Education</b> with <b>90.14% marks</b></p>
+                            <h3 className='text-emerald-300 md:text-lg text-md font-bold'>Secondary Examination in 2021</h3>
+                            <p className='text-sm md:text-md'>Passed the <b>Secondary examination</b> from <b>Ramakrishna Mission Vidyabhavan(H.S.)</b> affiliated to <b>West Bengal Board of Secondary Education</b> with <b>90.14% marks</b></p>
                         </div>
                     </div>
                 </div>
