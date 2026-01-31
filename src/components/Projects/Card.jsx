@@ -2,12 +2,12 @@ import './card.css'
 
 const Card = (props) => {
   return (
-    <div className="card h-120 p-5 bg-zinc-950 flex flex-col items-center justify-between">
+    <div className="card h-full min-h-120 p-5 bg-zinc-950 flex flex-col items-center justify-between">
         <div className="content flex flex-col gap-3">
             <img src={props.image} className="img rounded-lg w-full" alt="" />
-            <div style={{width: `${props.pname.length+1}ch`}} className='ml-2'>
-                <p className="nam text-lg font-bold text-emerald-300" >{props.pname}</p>
-            </div>
+            <p className="nam ml-2 inline-block text-lg font-bold text-emerald-300" style={{ "--chars": props.pname.length + 1 }}>
+                {props.pname}
+            </p>
             <p className='px-2 text-xs text-white'>{props.text}</p>
             <p className='px-2 text-xs font-semibold text-white'><span className='text-emerald-300'>Technologies : </span>{props.techs}</p>
         </div>

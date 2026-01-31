@@ -25,8 +25,8 @@ const Contact = ({ id }) => {
   }
 
   return (
-    <section id={id} className='min-h-screen w-full px-40 py-5'>
-      <div className="cc relative flex flex-row w-full bg-zinc-950 mt-25 rounded-xl p-15 z-30">
+    <section id={id} className='min-h-screen w-full px-40 py-5 flex flex-col justify-center items-center scroll-mt-20'>
+      <div className="cc relative flex flex-row w-full bg-zinc-950 rounded-xl p-15 z-30">
         <div className="info text-left w-full flex flex-col gap-4">
           <p className="pro w-fit text-4xl text-white text-center font-extrabold">
             Let's Get in Touch

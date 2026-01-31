@@ -20,8 +20,17 @@
     animation: blinker 1s step-end infinite;
 }
 
-.typing-wrap{
-    width: 32rem;
+.timeline-line {
+    height: 50px;
+    width: 100%;
+    border-left: 2px solid #03fac0;
+    border-top: 2px solid #03fac0;
+    z-index: 50;
+}
+
+.typing-wrap {
+  max-width: 32rem;
+  width: 100%;
 }
 
 .typing-wrap:hover .laptop{
@@ -29,12 +38,12 @@
 }
 
 @keyframes typingg {
-    from{
-        max-width: 0;
-    }
-    to{
-        max-width: 32rem;
-    }
+  from{ 
+    max-width: 0; 
+  }
+  to{ 
+    max-width: 100%;
+  }
 }
 
 @keyframes blinker {
@@ -42,4 +51,28 @@
         border-color: transparent;
     }
     
+}
+
+@media (max-width: 768px) {
+  .laptop {
+    white-space: normal;
+    max-width: 100%;
+    height: auto;
+    overflow: visible;
+    display: block;
+    font-size: 1rem;
+  }
+  .blink-box{
+    display: none;
+  }
+  .typing-wrap:hover .laptop{
+    animation: none;
+  }
+  .typing-wrap box-icon{
+    width: 20px;
+    height: 20px;
+  }
+  .all{
+    display: none;
+  }
 }

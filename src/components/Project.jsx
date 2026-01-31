@@ -55,11 +55,11 @@ const Project = ({id}) => {
     ]
   return (
     <div>
-      <section id={id} className='flex flex-col min-h-screen w-full px-20 py-5'>
-        <p className="pro text-4xl text-white text-center font-extrabold mt-25">My Projects</p>
-        <div className='w-full flex flex-wrap gap-5 mt-10'>
+      <section id={id} className='flex flex-col min-h-screen w-full px-6 md:px-12 lg:px-20 py-5 scroll-mt-20'>
+        <p className="pro text-4xl text-white text-center font-extrabold">My Projects</p>
+        <div className='w-full grid gap-6 mt-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
             {projects.map((elem,idx) => {
-                return <div key={idx} className='w-25/78 h-120'>
+                return <div key={idx} className='w-full'>
                     <Card pname={elem.pname} image={elem.image} text={elem.text} techs={elem.techs} github={elem.github} mvp={elem.mvp}/>
                 </div>
             })}

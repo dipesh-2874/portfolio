@@ -18,6 +18,7 @@
 }
 
 .nam{
+    width: calc(var(--chars) * 1ch);
     height: 25px;
     text-align: left;
     overflow: hidden;
@@ -28,7 +29,7 @@
 }
 
 .card:hover .nam{
-    animation: typing 3s steps(22) forwards,
+    animation: typing 3s steps(var(--chars)) forwards,
     blink 1s step-end infinite;
 }
 
@@ -37,7 +38,7 @@
         width: 0;
     }
     to{
-        width: 100%;
+        width: calc(var(--chars) * 1ch);
     }
 }
 

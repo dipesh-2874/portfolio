@@ -3,18 +3,20 @@ import Lefttext from './Home/Lefttext'
 import Rightimg from './Home/Rightimg'
 import Buttons from './Home/Buttons'
 
-const Home = ({id}) => {
+const Home = ({ id }) => {
   return (
-    <section id={id} className='min-h-screen w-full px-20 py-5'>
-      <div className="division flex flex-row justify-between gap-7 mt-20">
-        <div className="left flex flex-col justify-center gap-5">
-            <Lefttext />
-            <Buttons />
+    <section id={id} className="min-h-screen w-full px-6 md:px-12 lg:px-20 py-5">
+      <div className="division flex flex-col lg:flex-row items-center justify-between gap-10 mt-20">
+        <div className="order-1 lg:order-1 flex flex-col gap-5">
+          <Lefttext />
+          <Buttons />
         </div>
-        <Rightimg />
+        <div className="order-2 lg:order-2">
+          <Rightimg />
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Home
