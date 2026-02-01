@@ -9,3 +9,4 @@ const Leftimg = () => {
 }
 
 export default Leftimg
+ 
