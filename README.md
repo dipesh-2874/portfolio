@@ -22,7 +22,7 @@ It’s designed to highlight my work in an elegant, responsive, and interactive 
 | **Frontend** | HTML5, React JS (jsx) |
 | **Styling** | CSS3, Tailwind CSS |
 | **Deployment** | GitHub Pages / Render |
-| **Other Tools** | EmailJS |
+| **Mailing & Backend** | Node, Express & Nodemailer |
 
 ---
 
