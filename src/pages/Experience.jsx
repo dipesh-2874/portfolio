@@ -1,6 +1,6 @@
 import React from 'react'
-import Exp1 from './Experience/Exp1'
-import Exp2 from './Experience/Exp2'
+import Exp1 from '../components/Experience/Exp1'
+import Exp2 from '../components/Experience/Exp2'
 
 const Experience = ({id}) => {
   return (

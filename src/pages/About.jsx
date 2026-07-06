@@ -1,5 +1,5 @@
-import Leftimg from "./About/Leftimg"
-import Righttext from "./About/Righttext"
+import Leftimg from "../components/About/Leftimg"
+import Righttext from "../components/About/Righttext"
 
 
 const About = ({id}) => {

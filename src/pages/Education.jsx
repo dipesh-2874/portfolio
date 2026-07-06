@@ -1,4 +1,4 @@
-import './Education/edu.css'
+import '../components/Education/edu.css'
 const Education = ({id}) => {
   return (
     <div>

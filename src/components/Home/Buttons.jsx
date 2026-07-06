@@ -12,7 +12,7 @@ const Buttons = () => {
         <a target="_blank" href="https://www.instagram.com/dipesh_184?igsh=NW5odWYzbmN5dHYy"><box-icon type='logo' color='#5ee9b5' className='h-10 w-10 duration-300 ease-in-out' name='instagram'></box-icon></a>
         <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=01dipeshdas@gmail.com"><box-icon color='#5ee9b5' className='h-10 w-10 duration-300 ease-in-out' name='envelope'></box-icon></a>
       </div>
-      <a href="#" onClick={(e) => e.preventDefault()} className="view px-6 py-2 bg-emerald-300 font-bold mt-2 text-center w-full max-w-xs rounded-full">View Resume</a>
+      <a href="https://drive.google.com/file/d/1tZu-25BDUzr23wyr_CJpCv617WzyVwzi/view?usp=sharing" target="_blank" className="view px-6 py-2 bg-emerald-300 font-bold mt-2 text-center w-full max-w-xs rounded-full">View Resume</a>
     </div>
   )
 }

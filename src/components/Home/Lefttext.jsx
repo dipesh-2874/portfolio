@@ -5,7 +5,7 @@ const Lefttext = () => {
 
   return (
     <div className='flex flex-col gap-1'>
-        <h1 className='text-4xl md:text-6xl font-extrabold text-emerald-300'>WELCOME</h1>
+        <h1 className='text-4xl md:text-6xl font-extrabold text-emerald-300'>WELCOME,</h1>
         <h2 className='text-xl md:text-2xl text-white font-semibold'>MYSELF</h2>
         <h2 ref={scrambleRef} className='text-5xl md:text-8xl w-fit text-white font-extrabold mt-1'>Dipesh Das</h2>
         <h2 className='flex items-center px-1 py-0.5 bg-emerald-300 font-bold w-fit'>an Undergraduate Enineering Student...<div id="box" className='bg-zinc-950 w-1.5'></div></h2>

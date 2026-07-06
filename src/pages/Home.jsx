@@ -1,7 +1,7 @@
 import React from 'react'
-import Lefttext from './Home/Lefttext'
-import Rightimg from './Home/Rightimg'
-import Buttons from './Home/Buttons'
+import Lefttext from '../components/Home/Lefttext'
+import Rightimg from '../components/Home/Rightimg'
+import Buttons from '../components/Home/Buttons'
 
 const Home = ({ id }) => {
   return (

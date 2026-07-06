@@ -1,7 +1,7 @@
-import Webdev from './Skills/Webdev'
-import Programming from './Skills/Programming'
-import Designing from './Skills/Designing'
-import Tools from './Skills/Tools'
+import Webdev from '../components/Skills/Webdev'
+import Programming from '../components/Skills/Programming'
+import Designing from '../components/Skills/Designing'
+import Tools from '../components/Skills/Tools'
 
 const Skills = ({id}) => {
   return (

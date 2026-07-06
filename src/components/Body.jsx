@@ -1,11 +1,11 @@
 import React from 'react'
-import Home from './Home'
-import About from './About'
-import Project from './Project'
-import Skills from './Skills'
-import Experience from './Experience'
-import Education from './Education'
-import Contact from './Contact'
+import Home from '../pages/Home'
+import About from '../pages/About'
+import Project from '../pages/Project'
+import Skills from '../pages/Skills'
+import Experience from '../pages/Experience'
+import Education from '../pages/Education'
+import Contact from '../pages/Contact'
 
 const Body = () => {
   return (

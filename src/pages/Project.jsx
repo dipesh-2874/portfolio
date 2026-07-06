@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './Projects/Card'
-import './Projects/card.css'
+import Card from '../components/Projects/Card'
+import '../components/Projects/card.css'
 
 const Project = ({id}) => {
     const projects = [
